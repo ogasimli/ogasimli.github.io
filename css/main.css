@@ -1,9 +1,9 @@
 /*------------------------------------------------------------------
 Project:  ComingSoon
-Version:  
-Last change:  
+Version:
+Last change:
 Assigned to:  Bach Le
-Primary use:  
+Primary use:
 -------------------------------------------------------------------*/
 
 
@@ -13,20 +13,45 @@ Primary use:
 
 @font-face {
   font-family: Poppins-Regular;
-  src: url('../fonts/Poppins/Poppins-Regular.ttf'); 
+  src: url('../fonts/Poppins/Poppins-Regular.ttf');
 }
 
 @font-face {
   font-family: Poppins-Bold;
-  src: url('../fonts/Poppins/Poppins-Bold.ttf'); 
+  src: url('../fonts/Poppins/Poppins-Bold.ttf');
 }
 
 @font-face {
   font-family: Aldrich-Regular;
-  src: url('../fonts/Aldrich/Aldrich-Regular.ttf'); 
+  src: url('../fonts/Aldrich/Aldrich-Regular.ttf');
 }
 
+/*//////////////////////////////////////////////////////////////////
+[ INITIALS ]*/
+/*---------------------------------------------*/
+#initials {
 
+}
+
+.initials-o,
+.initials-g {
+  display: inline;
+  font-family: Aldrich-Regular;
+  font-size: 2rem;
+  font-weight: 500;
+  color: white;
+  text-transform: uppercase;
+}
+
+.initials-o {
+  font-size: 2.5rem;
+}
+
+.initials-g {
+  position: relative;
+  left: -7px;
+  top: -1px;
+}
 
 /*//////////////////////////////////////////////////////////////////
 [ RS PLUGIN ]*/
@@ -220,7 +245,7 @@ Primary use:
   text-shadow: 0 0px 0px #000;
   background-color: #0d1629;
   border-radius: 3px;
-} 
+}
 
 .flip-clock-wrapper ul li a div .shadow {
   border-radius: 3px;
@@ -439,14 +464,14 @@ Primary use:
 
 
 /*==================================================================
-   WHERE WHERE WHERE WHERE WHERE WHERE WHERE WHERE WHERE WHERE WHERE  
+   WHERE WHERE WHERE WHERE WHERE WHERE WHERE WHERE WHERE WHERE WHERE
 ==================================================================*/
 
 
 
 
 /*==================================================================
- HOW HOW HOW HOW HOW HOW HOW HOW HOW HOW HOW HOW HOW HOW HOW HOW HOW 
+ HOW HOW HOW HOW HOW HOW HOW HOW HOW HOW HOW HOW HOW HOW HOW HOW HOW
 ==================================================================*/
 .placeholder0::-webkit-input-placeholder { color: #999999;}
 .placeholder0:-moz-placeholder { color: #999999;}
@@ -676,7 +701,7 @@ Primary use:
     padding-right: 14px;
     padding-bottom: 50px;
   }
-  
+
 }
 
 
